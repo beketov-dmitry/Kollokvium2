@@ -1,7 +1,9 @@
+package com.example.kollokvium2;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class NameValidator implements ValidatorStrategy{
+public class NameValidator implements ValidatorStrategy {
 
     private Pattern pattern;
     private Matcher matcherName;
